@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(122, 148, 227);
+  padding: 0 1rem;
+}
+h1 {
+  text-align: center;
+  color: rgb(116, 238, 167);
+}
+button {
+  cursor: pointer;
+  margin: 0.6rem 2rem;
+  padding: 0.4rem 0.6rem;
+  font-style: italic;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  border: none;
+}
+.btns {
+  margin: 2px auto;
+  width: 30vw;
+}
+p {
+  background-color: #fff;
+  padding: 0.4rem;
+  max-width: 60vw;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+}
