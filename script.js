@@ -15,9 +15,22 @@ if (speech) {
         container.appendChild(para)
         para.innerText = txt
     })
-    // speech.addEventListener('end',()=>{speech.start()})
-    startbtn.addEventListener('click', () => { speech.start() })
-    stopbtn.addEventListener('click', () => { speech.stop() })
+    
+    speech.addEventListener('end',()=>{
+    console.log(a)
+
+        if(!a){speech.start() 
+        console.log(a)
+        }
+    })
+    startbtn.addEventListener('click', () => { 
+        speech.start()
+        })
+        let a=0;
+    stopbtn.addEventListener('click', () => { 
+        speech.stop()
+      a = 1
+    })
 
 }
 else {
